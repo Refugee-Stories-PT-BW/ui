@@ -257,6 +257,7 @@ img {
 }
 hr {
   border-top: 2px dashed silver;
+  
   width: 100%;
   margin-right: 800px;
  }
@@ -450,3 +451,141 @@ a:active {
   transform: translateY(4px);
 }
 
+.remon {
+  display:flex;
+  flex-direction: row;
+  @media (max-width: 500px) {
+   display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+  
+  }
+}
+
+
+
+
+    
+  .dev {
+  font-weight: 700; 
+  font-size: 35px;
+  text-shadow: 2px 1px orange;
+  color: gray;
+  margin-left: 160px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  
+  }
+  .dev1 {
+    font-weight: 700; 
+    font-size: 35px;
+    text-shadow: 2px 1px orange;
+    color: gray;
+    margin-left: 180px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    }
+
+ .bio {
+   font-size: 18px;
+   text-align: center;
+   width: 600px;
+   margin-left: 10px;
+   text-shadow: 0.5px 0.5px gray;
+   color: gray;
+ 
+
+ }
+
+ .bio1 {
+  font-size: 18px;
+  text-align: center;
+  width: 600px;
+  margin-right: 20px;
+  text-shadow: 0.5px 0.5px gray;
+  color: gray;
+
+
+}
+
+
+.icons {
+  color: orange;
+  text-shadow: 1px 1px gray;
+  text-align: center;
+  margin-top: 40px;
+  padding: 15px;
+  font-size: 25px;
+  margin-right: 15px;
+}
+
+.remon1{
+  box-shadow: 8px 8px 10px orange
+  
+}
+
+.ariel1 {
+  box-shadow: -8px 0px 8px 1px orange;
+}
+
+.nathan1 {
+  box-shadow: -8px 0px 8px 1px orange;
+}
+
+.lindsey1{
+  margin-bottom: 20px;
+  box-shadow: -8px 0px 8px 1px orange;
+}
+    .remon2{
+      font-size: 30px;
+      font-style: italic;
+    }
+
+    .ariel {
+      display:flex;
+      flex-direction: row;
+        }
+        .ariel2{
+          font-size: 40px;
+          font-style: italic;
+        }
+    
+        .chase {
+          display:flex;
+          flex-direction: row;
+            }
+        
+            .chase2{
+              font-size: 50px;
+              font-style: italic;
+            }
+
+            .nathan {
+              display:flex;
+              flex-direction: row;
+                }
+                .nathan2{
+                  font-size: 40px;
+                  font-style: italic;
+                }
+
+                .vlad {
+                  display:flex;
+                  flex-direction: row;
+                    }
+                
+                    .vlad2{
+                      font-size: 50px;
+                      font-style: italic;
+                    }
+
+                    .lindsey {
+                      display:flex;
+                      flex-direction: row;
+                        }
+                        .lindsey2{
+                          font-size: 40px;
+                          font-style: italic;
+                        }
+
+                       

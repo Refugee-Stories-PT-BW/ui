@@ -240,7 +240,7 @@ img {
   font-family: 'Alegreya', serif;
   font-weight: 900;
   font-size: 6rem;
-  text-shadow: 1px 2px black;
+  text-shadow: 1px 2px orange;
   color: gray;
   width:auto;
 
@@ -389,7 +389,7 @@ hr {
   }
 }
 .home .content-pick .destination .btn {
-  background-color: #117b96;
+  background-color: rgb(11, 166, 238);
   color: white;
   padding: 15px 28px;
   text-align: center;
@@ -454,18 +454,344 @@ a:active {
 .remon {
   display:flex;
   flex-direction: row;
-  @media (max-width: 500px) {
-   display: flex;
-    flex-wrap: wrap;
-    width: 80%;
-  
-  }
+
+}
+
+.remon2{
+  font-size: 30px;
+  font-style: italic;
 }
 
 
+.chase {
+  display:flex;
+  flex-direction: row;
+    }
 
+    .chase2{
+      font-size: 30px;
+      font-style: italic;
+    }
+
+    .vlad {
+      display:flex;
+      flex-direction: row;
+        }
+    
+        .vlad2{
+          font-size: 30px;
+          font-style: italic;
+        }
+
+@media (max-width: 500px) {
+  .remon {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+    
+  }
+}
+  @media (max-width: 500px) {
+    
+  .chase {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+  }
+
+  .chase2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    align-items: center;
+    margin-right: 110px;
+  }
+  .vlad {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+  }
+
+  .vlad2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    align-items: center;
+    margin-right: 110px;
+  }
+}
+
+@media (max-width: 500px) {
+  
+  .navigation {
+    margin-bottom: 20px;
+  }
+  
+  .remon2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    align-items: center;
+    margin-right: 110px;
+  }
+  .name {
+    align-self: center;
+    font-size: 25px;
+    
+  }
+  .remon2 .dev {
+    font-size: 20px;
+    margin-top: -30px;
+    align-items: center;
+    text-shadow: 0.5px 0.5px 5px orange;
+    color: gray;
+  }
+
+  .ariel2 .dev1 {
+    font-size: 20px;
+    margin-top: -20px;
+    align-items: center;
+    text-shadow: 0.5px 0.5px 5px rgb(40, 160, 240);
+    color: gray;
+  }
+  .chase2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    align-items: center;
+    margin-right: 40px;
+  }
+  .chase2 .dev {
+    font-size: 20px;
+    margin-top: -30px;
+    margin-left: 140px;
+    align-items: center;
+    text-shadow: 0.5px 0.5px 5px orange;
+    color: gray;
+    
+  }
+  .chase2 .name {
+    margin-left: 130px;
+    align-items: center;
+  }
+
+  .nathan2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    align-items: center;
+    margin-right: 40px;
+  }
+  .nathan2 .dev3 {
+    font-size: 20px;
+    margin-top: -20px;
+    margin-left: 190px;
+    align-items: center;
+    text-shadow: 0.5px 0.5px 5px rgb(40, 160, 240);
+    color: gray;
+    
+  }
+  .nathan2 .bio1 {
+    margin-left: 80px;
+    align-items: center;
+  }
+
+  .nathan2 .icons1{
+    margin-left: 190px;
+    align-items: center;
+  }
+
+
+  .vlad2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    align-items: center;
+    margin-right: 110px;
+  }
+ 
+  .vlad2 .dev {
+    font-size: 20px;
+    margin-top: -30px;
+    align-items: center;
+    margin-right: 40px;
+    text-shadow: 0.5px 0.5px 5px orange;
+    color: gray;
+  }
+
+  .vlad2 .bio {
+    margin-left: 130px;
+    align-items: center;
+  }
+
+
+  .icons {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 200px;
+    
+  }
+   .remon .bio {
+    display: flex;
+    flex-wrap: wrap;
+    width: 98%;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-left: 120px;
+    
+  }
+
+
+  .lindsey2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    align-items: center;
+    margin-right: 40px;
+  }
+  .lindsey2 .dev3 {
+    font-size: 20px;
+    margin-top: -20px;
+    margin-left: 190px;
+    align-items: center;
+    text-shadow: 0.5px 0.5px 5px rgb(40, 160, 240);
+    color: gray;
+    
+  }
+  .lindsey2 .bio1 {
+    margin-left: 80px;
+    align-items: center;
+  }
+
+  .lindsey2 .icons1{
+    margin-left: 190px;
+    align-items: center;
+  }
+
+
+
+ 
+}
+
+.ariel {
+  display:flex;
+  flex-direction: row-reverse;
+ 
+}
+
+.ariel2{
+  font-size: 40px;
+  font-style: italic;
+}
+
+.nathan {
+  display:flex;
+  flex-direction: row-reverse;
+    }
+    .nathan2{
+      font-size: 40px;
+      font-style: italic;
+    }
 
     
+
+        .lindsey {
+          display:flex;
+          flex-direction: row-reverse;
+            }
+            .lindsey2{
+              font-size: 40px;
+              font-style: italic;
+            }
+
+
+@media (max-width: 500px) {
+  .ariel {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+    
+  }
+
+  .nathan {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+    
+  }
+
+  .nathan2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    align-items: center;
+    margin-right: 110px;
+  }
+
+  .lindsey {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+    
+  }
+
+  .lindsey2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    align-items: center;
+    margin-right: 110px;
+  }
+}
+
+@media (max-width: 500px) {
+  .ariel2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    align-items: center;
+    margin-right: 110px;
+  }
+  .name1 {
+    align-self: center;
+    font-size: 35px;
+    
+  }
+  .dev1 {
+    font-size: 23px;
+    margin-top: -20px;
+    margin-left: 500px;
+  
+  
+  }
+  .icons {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 200px;
+    
+  }
+   .ariel .bio1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 98%;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-left: 120px;
+    
+    
+  }
+}
+  
   .dev {
   font-weight: 700; 
   font-size: 25px;
@@ -479,7 +805,7 @@ a:active {
 
   .name {
     font-weight: 700; 
-    font-size: 40px;
+    font-size: 35px;
     text-shadow: 2px 1px orange;
     color: gray;
     margin-left: 180px;
@@ -579,69 +905,18 @@ a:active {
 
 .ariel1 {
   border-radius: 8px;
-  box-shadow: -8px 0px 8px 1px orange;
+  box-shadow: -8px 0px 8px 1px rgb(11, 166, 238);
 }
 
 .nathan1 {
   border-radius: 8px;
-  box-shadow: -8px 0px 8px 1px orange;
+  box-shadow: -8px 0px 8px 1px rgb(11, 166, 238);
 }
 
 .lindsey1{
   border-radius: 8px;
   margin-bottom: 20px;
-  box-shadow: -8px 0px 8px 1px orange;
+  box-shadow: -8px 0px 8px 1px rgb(11, 166, 238);
 }
-    .remon2{
-      font-size: 30px;
-      font-style: italic;
-    }
-
-    .ariel {
-      display:flex;
-      flex-direction: row;
-        }
-        .ariel2{
-          font-size: 40px;
-          font-style: italic;
-        }
-    
-        .chase {
-          display:flex;
-          flex-direction: row;
-            }
-        
-            .chase2{
-              font-size: 50px;
-              font-style: italic;
-            }
-
-            .nathan {
-              display:flex;
-              flex-direction: row;
-                }
-                .nathan2{
-                  font-size: 40px;
-                  font-style: italic;
-                }
-
-                .vlad {
-                  display:flex;
-                  flex-direction: row;
-                    }
-                
-                    .vlad2{
-                      font-size: 50px;
-                      font-style: italic;
-                    }
-
-                    .lindsey {
-                      display:flex;
-                      flex-direction: row;
-                        }
-                        .lindsey2{
-                          font-size: 40px;
-                          font-style: italic;
-                        }
 
                        
